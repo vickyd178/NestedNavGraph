@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_cart"
+    app:startDestination="@id/cart">
+
+    <fragment
+        android:id="@+id/cart"
+        android:name="com.doops.nestednavgraph.ui.cart.CartFragment"
+        android:label="@string/menu_cart"
+        tools:layout="@layout/fragment_cart">
+
+    </fragment>
+</navigation>
